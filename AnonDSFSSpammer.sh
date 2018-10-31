@@ -19,7 +19,7 @@ echo "\033[36;1mThanks to : Tuan c4rt00nw4r"
 echo "\033[37;1mAlly Team : DSFS Public"
 echo "\033[33;1mContact Me : anon6372098@gmail.com"
 echo "\033[31;1mSubscribe Youtube :"
-echo "\033[33;1mD4RK SYST3M F41LUR3 S33K3R" "\033[32;1m&" "\033[36;1m(DSFS)"
+echo "\033[33;1mD4RK SYST3M F41LUR3 S33K3R" "\033[36;1m(DSFS)"
 echo "\033[34;1m[============================]"
 sleep 1
 echo ""
@@ -33,21 +33,25 @@ echo "[===============================================]>"
 echo "3.> Spam Sms Matahari Mall"
 echo "[===============================================]>"
 echo "4.> Spam Sms HooqTV"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "5.> Spam Sms KFC"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "6.> Spam Bom PHD"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "7.> Spam Sms Whiskas"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "8.> Spam Sms ZiPAY"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "9.> Spam Bom JDID"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "10.> Spam Grab"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "11.> Spam BukaLapak WhatsApp"
-echo "[===============================================]>"
+echo "[===============================================]"
+echo "12.> Spam Bom PHD"
+echo "[===============================================]"
+echo "0.> Exit/Keluar"
+echo "[===============================================]"
 read -p "root@Tools-AnonDSFSSpammer]~#" anon
 
 if [ $anon = 1 ] || [ $anon = 1 ]
@@ -130,12 +134,20 @@ cd module
 python2 spammer.py
 fi
 
-if [ $anon = 10 ] || [ $anon = 10 ]
+if [ $anon = 11 ] || [ $anon = 11 ]
 then
 clear
 figlet "Anon DSFS Spammer" | lolcat
 cd module
 php DSFS-WA-Spam.php
+fi
+
+if [ $anon = 12 ] || [ $anon = 12 ]
+then
+clear
+figlet "Anon DSFS Spammer" | lolcat
+cd module
+php bomphd.php
 fi
 
 if [ $anon = 0 ] || [ $anon = 00 ]
