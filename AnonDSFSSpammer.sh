@@ -49,8 +49,6 @@ echo "10.> Spam Grab"
 echo "[===============================================]"
 echo "11.> Spam BukaLapak WhatsApp"
 echo "[===============================================]"
-echo "12.> Spam Bom PHD"
-echo "[===============================================]"
 echo "0.> Exit/Keluar"
 echo "[===============================================]"
 read -p "root@Tools-AnonDSFSSpammer]~#" anon
@@ -141,14 +139,6 @@ clear
 figlet "Anon DSFS Spammer (BL WA)" | lolcat
 cd module
 php DSFS-WA-Spam
-fi
-
-if [ $anon = 12 ] || [ $anon = 12 ]
-then
-clear
-figlet "Anon DSFS Spammer (Bom KFC)" | lolcat
-cd module
-php bomkfc.php
 fi
 
 if [ $anon = 0 ] || [ $anon = 00 ]
