@@ -8,7 +8,7 @@ red='\033[31;1m'
 white='\033[37;1m'                                           
 yellow='\033[33;1m'
 sleep 1
-toilet -f slant -F gay "Anon DSFS Spammer" | lolcat
+toilet -f slant -F gay "Anon DSFS" | lolcat
 toilet -f slant -F gay "Spammer" | lolcat
 echo "\033[35;1m"
 cal
