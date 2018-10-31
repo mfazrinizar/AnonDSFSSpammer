@@ -58,7 +58,7 @@ read -p "root@Tools-AnonDSFSSpammer]~#" anon
 if [ $anon = 1 ] || [ $anon = 1 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (TokPed)" | lolcat
 cd module
 php tp.php
 fi
@@ -67,14 +67,14 @@ if
 [ $anon = 2 ] || [ $anon = 2 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (Telkomsel)" | lolcat
 cd module
 php t.php
 fi
 
 if [ $anon = 3 ] || [ $anon = 3 ]
 then
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (MatahariMall)" | lolcat
 cd module
 php mataharimall.php
 fi
@@ -82,7 +82,7 @@ fi
 if [ $bro = 4 ] || [ $bro = 4 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (HooqTV)" | lolcat
 cd module
 php hooq.php
 fi
@@ -90,7 +90,7 @@ fi
 if [ $anon = 5 ] || [ $anon = 5 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (KFC)" | lolcat
 cd module
 php kfc.php
 fi
@@ -98,7 +98,7 @@ fi
 if [ $anon = 6 ] || [ $anon = 6 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (PHD)" | lolcat
 cd module
 php phd.php
 fi
@@ -106,7 +106,7 @@ fi
 if [ $anon = 7 ] || [ $anon = 7 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (Whiskas)" | lolcat
 cd module
 php whiskas.php
 fi
@@ -114,7 +114,7 @@ fi
 if [ $anon = 8 ] || [ $anon = 8 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (ZiPay)" | lolcat
 cd module
 php zipay.php
 fi
@@ -122,7 +122,7 @@ fi
 if [ $anon = 9 ] || [ $anon = 9 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (JDID)" | lolcat
 cd module
 php jdid.php
 fi
@@ -138,17 +138,17 @@ fi
 if [ $anon = 11 ] || [ $anon = 11 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (BL WA)" | lolcat
 cd module
-php DSFS-WA-Spam.php
+php DSFS-WA-Spam
 fi
 
 if [ $anon = 12 ] || [ $anon = 12 ]
 then
 clear
-figlet "Anon DSFS Spammer" | lolcat
+figlet "Anon DSFS Spammer (Bom KFC)" | lolcat
 cd module
-php bomphd.php
+php bomkfc.php
 fi
 
 if [ $anon = 0 ] || [ $anon = 00 ]
