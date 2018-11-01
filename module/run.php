@@ -1,16 +1,20 @@
-﻿<?php
+<?php
 include 'func.php';
 
 /*
-    https://github.com/Anon6372098 
-    Github : Anon6372098
+    https://github.com/nee48/BomTelpSmsTokped
+    Made by Handika Pratama
 */
 
 $init = new Bom();
 
 //Eksekusi Call/Sms Boomber (Limit 3x/Jam)
-$init->type = 2; //Ketik 2 untuk telpon, Ketik 1 untuk sms
-$init->no = ""; //Nomor Hp tujuan
+
+echo "Nomor? (ex : 628xxxx)\nInput : ";
+$a = trim(fgets(STDIN));
+$init->no = "$a";
+$init->type = 2; //Type 2 untuk telpon, Type 1 untuk sms
+//$init->no = "0895371761108"; //Nomer Hp tujuan
 
 if ($init->type == 1) {
 	for ($i=0; $i < 2; $i++) { 
