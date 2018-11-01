@@ -27,27 +27,25 @@ echo ""
 echo "\033[32;1mSilahkan Pilih Tool Spam :"
 echo "\033[36;1m"
 echo "[===============================================]"
-echo "1.> Spam Sms Tokopedia"
+echo "1.> Spam Bom Tokopedia"
 echo "[===============================================]>"
 echo "2.> Spam Sms Telkomsel"
 echo "[===============================================]>"
 echo "3.> Spam Sms Matahari Mall"
 echo "[===============================================]>"
-echo "4.> Spam Sms HooqTV"
+echo "4.> Spam Sms KFC"
 echo "[===============================================]"
-echo "5.> Spam Sms KFC"
+echo "5.> Spam Bom PHD"
 echo "[===============================================]"
-echo "6.> Spam Bom PHD"
+echo "6.> Spam Sms Whiskas"
 echo "[===============================================]"
-echo "7.> Spam Sms Whiskas"
+echo "7.> Spam Sms ZiPAY"
 echo "[===============================================]"
-echo "8.> Spam Sms ZiPAY"
+echo "8.> Spam Bom JDID"
 echo "[===============================================]"
-echo "9.> Spam Bom JDID"
+echo "9.> Spam Grab"
 echo "[===============================================]"
-echo "10.> Spam Grab"
-echo "[===============================================]"
-echo "11.> Spam BukaLapak WhatsApp"
+echo "10.> Spam BukaLapak WhatsApp"
 echo "[===============================================]"
 echo "0.> Exit/Keluar"
 echo "[===============================================]"
@@ -58,7 +56,7 @@ then
 clear
 figlet "Anon DSFS Spammer (TokPed)" | lolcat
 cd module
-php tp.php
+php run.php
 fi
 
 if
@@ -77,15 +75,7 @@ cd module
 php mataharimall.php
 fi
 
-if [ $bro = 4 ] || [ $bro = 4 ]
-then
-clear
-figlet "Anon DSFS Spammer (HooqTV)" | lolcat
-cd module
-php hooq.php
-fi
-
-if [ $anon = 5 ] || [ $anon = 5 ]
+if [ $anon = 4 ] || [ $anon = 4 ]
 then
 clear
 figlet "Anon DSFS Spammer (KFC)" | lolcat
@@ -93,7 +83,7 @@ cd module
 php kfc.php
 fi
 
-if [ $anon = 6 ] || [ $anon = 6 ]
+if [ $anon = 5 ] || [ $anon = 5 ]
 then
 clear
 figlet "Anon DSFS Spammer (PHD)" | lolcat
@@ -101,7 +91,7 @@ cd module
 php phd.php
 fi
 
-if [ $anon = 7 ] || [ $anon = 7 ]
+if [ $anon = 6 ] || [ $anon = 6 ]
 then
 clear
 figlet "Anon DSFS Spammer (Whiskas)" | lolcat
@@ -109,7 +99,7 @@ cd module
 php whiskas.php
 fi
 
-if [ $anon = 8 ] || [ $anon = 8 ]
+if [ $anon = 7 ] || [ $anon = 7 ]
 then
 clear
 figlet "Anon DSFS Spammer (ZiPay)" | lolcat
@@ -117,7 +107,7 @@ cd module
 php zipay.php
 fi
 
-if [ $anon = 9 ] || [ $anon = 9 ]
+if [ $anon = 8 ] || [ $anon = 8 ]
 then
 clear
 figlet "Anon DSFS Spammer (JDID)" | lolcat
@@ -125,7 +115,7 @@ cd module
 php jdid.php
 fi
 
-if [ $anon = 10 ] || [ $anon = 10 ]
+if [ $anon = 9 ] || [ $anon = 9 ]
 then
 clear
 figlet "Anon DSFS Spammer" | lolcat
@@ -133,7 +123,7 @@ cd module
 python2 spammer.py
 fi
 
-if [ $anon = 11 ] || [ $anon = 11 ]
+if [ $anon = 10 ] || [ $anon = 10 ]
 then
 clear
 figlet "Anon DSFS Spammer (BL WA)" | lolcat
