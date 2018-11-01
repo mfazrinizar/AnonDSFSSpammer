@@ -27,7 +27,7 @@ echo ""
 echo "\033[32;1mSilahkan Pilih Tool Spam :"
 echo "\033[36;1m"
 echo "[===============================================]"
-echo "1.> Spam Bom Tokopedia"
+echo "1.> Spam Call Tokopedia"
 echo "[===============================================]>"
 echo "2.> Spam Sms Telkomsel"
 echo "[===============================================]>"
@@ -35,9 +35,9 @@ echo "3.> Spam Sms Matahari Mall"
 echo "[===============================================]>"
 echo "4.> Spam Sms KFC"
 echo "[===============================================]"
-echo "5.> Spam Bom PHD"
+echo "5.> Spam Sms PHD"
 echo "[===============================================]"
-echo "6.> Spam Sms Whiskas"
+echo "6.> Spam Sms Khusus Tri"
 echo "[===============================================]"
 echo "7.> Spam Sms ZiPAY"
 echo "[===============================================]"
@@ -94,9 +94,9 @@ fi
 if [ $anon = 6 ] || [ $anon = 6 ]
 then
 clear
-figlet "Anon DSFS Spammer (Whiskas)" | lolcat
+figlet "Anon DSFS Spammer (Tri)" | lolcat
 cd module
-php whiskas.php
+sh Tri-Spam-DSFS.sh
 fi
 
 if [ $anon = 7 ] || [ $anon = 7 ]
