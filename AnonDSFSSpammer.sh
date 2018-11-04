@@ -28,11 +28,11 @@ echo "\033[32;1mSilahkan Pilih Tool Spam :"
 echo "\033[36;1m"
 echo "[===============================================]"
 echo "1.> Spam Call Tokopedia"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "2.> Spam Sms Telkomsel"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "3.> Spam Sms Matahari Mall"
-echo "[===============================================]>"
+echo "[===============================================]"
 echo "4.> Spam Sms KFC"
 echo "[===============================================]"
 echo "5.> Spam Sms PHD"
@@ -147,7 +147,7 @@ echo "We Do Not Forget"
 sleep 1
 echo "Expect Us"
 sleep 1
-echo "\033[32;1mDiakui, bukan mengakui"
+echo "\033[32;1mDiakui, Bukan Mengakui"
 sleep 1
 exit
 fi
